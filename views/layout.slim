@@ -1,0 +1,14 @@
+doctype 5
+html
+  head
+    meta(charset="utf-8")
+    title Really Simple Authentication
+    link rel="stylesheet" href="/styles.css"
+
+  body
+    a href='/admin' Login
+    a href='/logout' Logout
+    a href='/public' Public
+    a href='/private' Private
+
+    == yield
